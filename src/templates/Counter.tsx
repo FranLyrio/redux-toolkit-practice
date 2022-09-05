@@ -20,7 +20,7 @@ export const CounterTemplate = () => {
   return (
     <>
       <Button onClick={increment}>Increment</Button>
-      {counterState}
+      {counterState.value}
       <Button onClick={decrement}>Decrement</Button>
     </>
   )
